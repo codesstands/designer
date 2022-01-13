@@ -1,0 +1,54 @@
+*{box-sizing: border-box; margin: 0px; padding: 0px;}
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{font-family: 'Oxygen', sans-serif; font-size: 16px;}
+button{outline: 0; border: none; border-radius:20px;}
+h1{margin-bottom: 20px;font-family: 'Satisfy', cursive;
+  }
+h2{margin-bottom: 20px;}
+p{margin-bottom: 20px;}
+.p-1{padding: 10px;}.p-2{padding: 20px;}.p-5{padding: 50px;}
+
+.blue-bg{background: #4b2d7f;}
+
+
+.container{max-width: 1200px; margin: auto; }
+.row{display: flex;}
+.logo{ width: 260px; font-size: 30px; font-weight: 900; padding: 20px; color: #fff;}
+.main-banner-bg {
+    padding: 20px;
+	/* background: #ff00cc; */
+	/* background: -webkit-linear-gradient(to right, #333399, #ff00cc); */
+	background: linear-gradient(to right, #ed1b33, #442e82);
+	height: 100%;
+	opacity: 0.7;
+}
+
+    .banner-img{width: 100%; background: url('../images/banner-bg-1.jpg') no-repeat; background-size: cover;}
+    .map-img{width: 100%; background: url('../images/map.png') no-repeat; height: 500px; background-size: cover;}
+.main-nav{display: flex; justify-content: space-between;}
+
+.navbar{  display: flex; height: 100%; line-height: 60px;}
+.navbar ul{padding: 0px; list-style: none; margin: 0px;}
+.navbar li{display: inline-flex;}
+.navbar li a{color: #fff; text-decoration: none; padding: 10px 15px ;}
+.navbar li a:hover{ transition: ease-out 0.9;}
+
+.main-banner{position: relative;margin-bottom: 30px; color: #fff; box-sizing: border-box; } 
+.main-banner h1{font-size: 38px; color: #fff;} 
+.main-banner h2{font-size: 30px; color: #fff;} 
+.main-banner p{font-size: 16px; color: #fff;} 
+.banner-person{ position: absolute; right: 0; top: 100;}
+.banner-person img{ position: absolute; right: 0; width: 400px; top: 100;}
+.w-50{width: 50%;}
+.w-25{width: 25%;}
+.float-left{float: left;}.float-right{float: right;}
+
+.our-story-btn{ background: #f42267; padding:15px 20px; color: #fff;}
+.read-more-btn{ background: #5f3fb8; padding:15px 20px;  color: #fff;}
+
+.block-area{position: relative;}
+.block-area h1{font-size: 38px; color: #000;} 
+.block-area h2{font-size: 30px; color: #000;} 
+.block-area p{font-size: 16px; color: #000;} 
+.block-area-img{ position: absolute; right: 0; bottom: 0;}
+.block-area img{ position: absolute; right: 0; width: 300px;}
